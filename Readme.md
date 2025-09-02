@@ -89,3 +89,5 @@ Large Language Models (LLMs) like **ChatGPT (OpenAI)** or **LLaMA 3 (Meta)** fol
 | **Grok (xAI/Elon Musk)** | xAI             | Integrated with X (Twitter)                    | Social + conversational AI      |
 
 ---
+
+## 6. LangChain
