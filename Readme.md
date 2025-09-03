@@ -128,9 +128,9 @@ RAG is a method to enhance LLMs with **external knowledge** by combining informa
 #### 1. **Data Preparation Pipeline**
 ```mermaid
 flowchart LR
-    A[Load (Data Ingestion)] --> B[Split (Data Transformation)]
-    B --> C[Embeddings (Convert to Vectors)]
-    C --> D[Vector Stores (FAISS, Astra, Pinecone, Weaviate)]
+    A[Load: Data Ingestion] --> B[Split: Data Transformation]
+    B --> C[Embeddings: Convert to Vectors]
+    C --> D[Vector Store: FAISS / Astra / Pinecone / Weaviate]
 ```
 - **Load:** Ingest data (PDFs, CSVs, APIs) using LangChain.  
 - **Split:** Break data into chunks due to LLM context limits. Methods → Recursive Split, Character Split, HTML Split, JSON Split.  
